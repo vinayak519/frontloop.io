@@ -1,3 +1,3 @@
 # frontloops.io
 
-Ui Design Challenges/Practice from FrontLoops.io
+Ui Design daily Challenges/Practice task from FrontLoops.io
