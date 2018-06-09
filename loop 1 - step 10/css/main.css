@@ -1,0 +1,255 @@
+/*!
+*	Theme Name 		: AppLanding 
+    Description		: App landing page
+* 	Framework Type 	: Bulma
+*	Author 			: UIGRID
+*	Author Profile 	: http://www.uigrid.com/
+* 	Author Email 	: hello@uigrid.com / gridthemes@gmail.com
+*	Version 		: 1.0
+*/
+
+/*--------------------------------------------------------------
+#	Default Styles
+--------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800');
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #ffffff;
+	color: #777777;
+	line-height: 1.6;
+	font-family: 'Poppins', sans-serif;
+	font-smooth: always;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section, span { 
+    display:block;
+}
+
+h1{ font-size: 36px;}
+h2{ font-size: 30px;}
+h3{ font-size: 24px;}
+h4{ font-size: 18px;}
+h5{ font-size: 14px;}
+h6{ font-size: 12px;}
+
+h1, h2, h3, h4, h5, h6{
+	color: #1b1b1b;
+	letter-spacing: 3px;
+}
+
+p, a{
+	font-size: 15px;
+	letter-spacing: 3px;
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote, button, dl, table, pre {
+  padding: 0;
+  margin: 0px;
+  margin-bottom: 15px;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul, ol{
+	list-style: none; 
+	margin: 0px; 
+	padding: 0px;
+}
+
+a{color: #000000; text-decoration: none; font-weight: 500;}
+a:hover{color: #2a2a2a; text-decoration: none; outline: 0;}
+a:focus, a:visited, a:active{outline: 0; text-decoration: none;}
+
+img {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+}
+
+/*--------------------------------------------------------------
+#	Theme Styles - ReUsable styles
+--------------------------------------------------------------*/
+.section{
+	border-top: 1px solid #eeeeee;
+}
+
+.section-background-1{
+	background-image: url(../img/runners.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+/*--------------------------------------------------------------
+#	Theme Styles - Navbar / Cover
+--------------------------------------------------------------*/
+.hero .navbar{
+	padding-top: 30px;
+}
+
+.navbar-end .navbar-item{
+	color: #9e9e9e;
+}
+.navbar-end .navbar-item:hover{
+	color: #3273dc;
+}
+
+.navbar-item .is-active{
+	color: #3273dc;	
+}
+
+.navbar-item img{
+	width: 30px;
+	max-height: 120px;
+}
+
+.navbar-input{
+	border: none;
+	border-radius: 0px;
+	border-bottom: 1px solid #9e9e9e;
+	margin-top: 22px;
+	outline: none;
+	box-shadow: none;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+.navbar-input:hover,
+.navbar-input:active,
+.navbar-input:focus{
+	outline: none;
+	box-shadow: none;
+}
+
+
+.hero.is-primary a.navbar-item.is-active,
+.hero.is-primary a.navbar-item:hover{
+	background-color: transparent;
+}
+
+.hero-cover{
+	background-image: url(../img/watches.jpg);
+	background-size: 600px;
+	background-position: right -180px bottom -20px;
+	background-repeat: no-repeat;
+}
+
+.hero.is-primary a.navbar-item:hover{
+	border-bottom: 1px solid #9e9e9e;
+}
+
+
+.hero-body .title{
+	font-size: 3em;
+	margin-bottom: 40px;
+	font-weight: 700;
+}
+
+.hero-body .subtitle{
+	font-size: 1em;
+	line-height: 1.6;
+	padding-left: 30px;
+	border-left: 2px solid #dddddd;
+}
+
+
+/*--------------------------------------------------------------
+#	Theme Styles - Services
+--------------------------------------------------------------*/
+.content_box .title{
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.content_box .title{
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+.content_box .button-link{
+	font-size: .8em;
+	color: #9e9e9e;
+}
+.content_box:hover .button-link{
+	font-size: .8em;
+	color: #3273dc;
+}
+
+
+/*--------------------------------------------------------------
+#	Theme Styles - Hero Section
+--------------------------------------------------------------*/
+.hero-section .title{
+	font-size: 3em;
+	margin-bottom: 60px;
+	text-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+}
+
+
+/*--------------------------------------------------------------
+#	Theme Styles - Hero Section CTA
+--------------------------------------------------------------*/
+.hero-section-cta .title{
+	font-size: 3em;
+	color: #ffffff;
+	text-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+}
+.hero-section-cta .subtitle{
+	color: #ffffff;
+}
+
+
+/*--------------------------------------------------------------
+#	Theme Styles - Footer
+--------------------------------------------------------------*/
+.is-footer{
+	padding: 80px 0px;
+}
+
+.is-footer .breadcrumb{
+	position: relative;
+	overflow: hidden;
+	padding: 10px 0px;
+	color: #9e9e9e;
+}
+
+.is-footer .breadcrumb a{
+	color: #9e9e9e;
+}
+.is-footer .breadcrumb a:hover{
+	color: #3273dc;
+}
+.is-footer .social ul li{
+	float: left;
+	margin-right: 15px;
+}
+
+.is-footer .social ul li a{
+	display: block;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 100%;
+	text-align: center;
+	border: 1px solid #9e9e9e;
+	color: #9e9e9e;	
+}
+.is-footer .social ul li a:hover{
+	color: #3273dc;	
+	border: 1px solid #3273dc;	
+}
+
+.is-footer .social ul li a svg{
+	margin-left: -2px;
+}
+
+
