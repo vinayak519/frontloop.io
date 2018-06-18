@@ -176,7 +176,7 @@ img{
 	transition: all 0.2s ease-in-out;
 }
 .card_item:hover{
-	transform: scale(1.020);
+	transform: scale(1.040);
 	/* Animate */	
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;

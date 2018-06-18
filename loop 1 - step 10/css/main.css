@@ -88,6 +88,10 @@ img {
 	background-repeat: no-repeat;
 }
 
+.light-background{
+	background-color: #eeeeee;
+}
+
 
 /*--------------------------------------------------------------
 #	Theme Styles - Navbar / Cover
