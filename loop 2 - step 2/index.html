@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loop 2 - Step 2</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/bulma.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+<body>
+  <!--
+    FYI:
+    Textarea resize in the design is a native feature of browsers.
+    Also there is no close icon in the assets, so you should try to find another way of implementing it.
+  -->
+
+  <div class="message_box">
+    <!-- Heading -->
+    <div class="message_heading">
+      <h4 class="message_title">Message Form</h4>
+      <i class="fas fa-times message_close"></i>
+    </div>
+    <!-- Heading -->
+
+    <!-- Main Input box -->
+    <form>
+      <div class="user_msg">
+        <div class="user_profile">
+          <!-- Avatar -->
+          <img src="https://instagram.fbom8-1.fna.fbcdn.net/vp/a55813fb08314fe7a347bb028d22ed58/5BC66B15/t51.2885-15/s320x320/e35/25005946_395136100944271_3381208051678707712_n.jpg">
+          <div class="clearfix"></div>
+          <!-- Avatar -->
+        </div>
+
+        <!-- User Name -->
+        <div class="field">
+          <div class="control">
+            <label>User Name</label>
+            <input class="input" type="text" placeholder="Enter your username">
+          </div>
+        </div>
+        <!-- User Name -->
+
+        <div class="field">
+          <div class="columns">
+            <!-- First Name -->
+            <div class="column">
+              <div class="control">
+                <label>First Name</label>
+                <input class="input" type="text" placeholder="Enter your first name">
+              </div>
+            </div>
+            <!-- First Name -->
+
+            <!-- Last Name -->
+            <div class="column">
+              <div class="control">
+                <label>Last Name</label>
+                <input class="input" type="text" placeholder="Enter your last name">
+              </div>
+            </div>
+            <!-- Last Name -->
+
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="control">
+            <label>Email</label>
+            <input class="input" type="text" placeholder="Enter your email">
+          </div>
+        </div>
+
+        <!-- Message -->
+        <div class="field">
+          <div class="control">
+            <label>Bio | www.vinayak.me</label>
+            <textarea class="textarea" type="text" placeholder="Tell me about yourself" rows="3"></textarea>
+          </div>
+        </div>
+        <!-- Message -->
+      </div>
+      <!-- Main Input box -->
+
+      <div class="form_control">
+        <button type="submit" class="btn_control">Send</button>
+        <button class="btn_control">Cancel</button>
+      </div>
+    </form>
+
+  </div>
+
+
+</body>
+</html>
